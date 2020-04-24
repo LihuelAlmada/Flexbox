@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    background-color: azure;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+}
+
+.item:nth-child(1) {
+    background-color: grey;
+    justify-content: center;
+}
+
+.item:nth-child(2) {
+    background-color: lightseagreen;
+}
+
+.see {
+    background-color: orange;
+    flex-direction: column;
+    height: 15rem;
+}
+
+.see:nth-child(1) {}
+
+.see:nth-child(2) {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.TOP {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.BOT {
+    background-color: plum;
+    justify-content: center;
+    align-items: center;
+}
